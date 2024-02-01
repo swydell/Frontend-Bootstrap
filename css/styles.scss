@@ -1,0 +1,27 @@
+$mycolor: #00ffff;
+$myfont: font-size;
+$myborder: 2px dashed red;
+$ourcolor: #8a258a;
+$color: #0000ff;
+$grad1: #e1ebeb;
+$grad2: #f5f8f5;
+
+$background-image: linear-gradient(180deg, rgb(0, 255, 179), rgb(198, 220, 233));
+
+h2{
+    background-color: $mycolor;
+    color: $color;
+}
+P{
+    color: $ourcolor;
+}
+#grad{
+    background-image: $background-image;
+}
+#grad1{
+    background-color: $grad1;
+}
+#grad2{
+    background-color: $grad2;
+}
+    
