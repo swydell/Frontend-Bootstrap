@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Syntexii</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    </style>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid image-fluid">
+            
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png" alt="bootstrap5 logo" width="40px">
+           <div>&nbsp;</div>
+            <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h2 class="text-primary fs-4 m-2">My about page</h2>
+    <div class="row row-col text-align-start m-2">
+    <div class="col">
+      <p>I'm using a combination of bootstrap5 and sass toward my styling. So far in some instances sass pre-empt bootsrap, but in other instances bootstrap seems to override sass. For my background-color on the about page I substituted bootstrap class for a gradient which I created is sass.
+      I had already done that on the home page in the first paragraph block. Sass: Syntactically Awsome Style Sheet is a preprocessor that converts the SCSS (Sassy) file to standard CSS.
+      In scss you create a variable using the $ symbol and give it a value. The advantage of using variables is that one
+      can change the value in one place and replace it through the whole document, saving lots of time of replacinng that value one at a time in each place.</p>
+      <p>I styled my h2 (header 2) in scss which took effect on my home page but not in my about page, and the same for my paragraphs on my about page. This is kind of confusing since I linked 
+      my css styles in my about page in the header the same as I did on my home page. To achieve the same style with my paragraphs on my about page I embedded the style.
+      But later I removed it and the background-color stayed but the font-color was gone in the h2 on the about page. Go figure. As an experiment I deleted the h2 style in my styles.css file,
+      then using a variable created a style in my styles.scss file, saved it and the scss file compiled it where it showed up in the styles.css. Amazing!</p>
+      <p>On the home page I styled the background in a two color gradient light-green and blue that shows up on the live server in vscode on the browser but is 
+        absense on the remote server on the internet. It driving me crazy as I try to figure out how to correct it.
+      </p>
+    </div>
+    
+    <div class="col">
+      <p>It happend out of curiosity that I happened to stumble upon Messiah Fellowship church. I had in 
+        weeks before attended services at another church just across the street. Not quite thrilled 
+        I decided to look further. I took note of  the church that had a tall steeple and put it on
+        my list to visit.  In the interim I attended a church in my neighborhood on the corner of
+        Vermont and 120th street, but there too it lacked luster. I wasn't moved. I just wanted to find a pastor
+        whose message had depth and weight.
+        Then here it was I heard the sermon given by pastor Moore that landed heavily on me. Although, 
+        his appearance was unassuming. He was clad in a sweater, blue jeans, and sneakers. In fact when 
+        I first laid eyes on him, he being the pastor was a far reach. I thought he was just a regular member.</p>
+      <p>I believe it might have been on my third visit to Messiah Fellowship that I decided to approach the guy who
+        was always inside a room in what appeared to be a center for the technical operations of the church. I learned that his  name was Richard and that he was
+        indeed the IT person. I introduced myself and told him that I had web development training but some of the backend skills I had
+        learned had been lost due to not using them over the years. He invited me to show up on a Tuesday and he would try to update my skills
+        and show me to other things that would be helpful in web development. I showed up and discovered I had a lot to learn.</p>
+        
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
